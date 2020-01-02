@@ -1,0 +1,12 @@
+
+{
+    "project_name": "project_name",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "jupyter_host_port": "8888",
+    "description": "Please Input a short description",
+    "data_source_type": ["s3", "nfs", "url"],
+    "data_source": "Please Input data source",
+    "use_nvidia_docker": ["no", "yes"],
+    "python_version": ["3.6", "3.7", "3.8"],
+    "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+}
